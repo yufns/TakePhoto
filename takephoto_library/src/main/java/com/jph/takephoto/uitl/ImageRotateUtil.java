@@ -23,7 +23,7 @@ import java.io.IOException;
  */
 public class ImageRotateUtil {
 
-    public static ImageRotateUtil of(){
+    public static ImageRotateUtil of() {
         return new ImageRotateUtil();
     }
 
@@ -32,22 +32,21 @@ public class ImageRotateUtil {
 
     /**
      * 纠正照片的旋转角度
-     * @param path
      */
-    public void correctImage(Context context,Uri path){
+    public void correctImage(Context context, Uri path) {
 
-        String imagePath=TUriParse.parseOwnUri(context,path);
+        String imagePath = TUriParse.parseOwnUri(context, path);
         int degree;
-        if((degree=getBitmapDegree(imagePath))!=0){
-            Bitmap bitmap= BitmapFactory.decodeFile(imagePath);
-            if(bitmap==null)return;
-            Bitmap resultBitmap=rotateBitmapByDegree(bitmap,degree);
-            if(resultBitmap==null)return;
+        if ((degree = getBitmapDegree(imagePath)) != 0) {
+            Bitmap bitmap = BitmapFactory.decodeFile(imagePath);
+            if (bitmap == null) { return; }
+            Bitmap resultBitmap = rotateBitmapByDegree(bitmap, degree);
+            if (resultBitmap == null) { return; }
             try {
-                resultBitmap.compress(Bitmap.CompressFormat.JPEG,100,new FileOutputStream(new File(imagePath)));
+                resultBitmap.compress(Bitmap.CompressFormat.JPEG, 100, new FileOutputStream(new File(imagePath)));
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
-            }catch (OutOfMemoryError e){
+            } catch (OutOfMemoryError e) {
                 e.printStackTrace();
             }
         }
@@ -66,7 +65,7 @@ public class ImageRotateUtil {
             ExifInterface exifInterface = new ExifInterface(path);
             // 获取图片的旋转信息
             int orientation = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION,
-                    ExifInterface.ORIENTATION_NORMAL);
+                                                            ExifInterface.ORIENTATION_NORMAL);
             switch (orientation) {
                 case ExifInterface.ORIENTATION_ROTATE_90:
                     degree = 90;
@@ -87,7 +86,7 @@ public class ImageRotateUtil {
     /**
      * 将图片按照某个角度进行旋转
      *
-     * @param bm     需要旋转的图片
+     * @param bm 需要旋转的图片
      * @param degree 旋转角度
      * @return 旋转后的图片
      */

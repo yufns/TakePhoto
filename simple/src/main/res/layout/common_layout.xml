@@ -20,12 +20,12 @@
                 android:layout_height="wrap_content"
                 android:text="裁切配置："
                 android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
-                android:background="@android:color/darker_gray" />
+                android:background="@android:color/darker_gray"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -36,7 +36,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="是否裁切：" />
+                    android:text="是否裁切："/>
 
                 <RadioGroup
                     android:id="@+id/rgCrop"
@@ -50,13 +50,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:checked="true"
-                        android:text="是" />
+                        android:text="是"/>
 
                     <RadioButton
                         android:id="@+id/rbCropNo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="否" />
+                        android:text="否"/>
                 </RadioGroup>
             </LinearLayout>
 
@@ -69,7 +69,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="裁切工具：" />
+                    android:text="裁切工具："/>
 
                 <RadioGroup
                     android:id="@+id/rgCropTool"
@@ -83,13 +83,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:checked="true"
-                        android:text="第三方" />
+                        android:text="第三方"/>
 
                     <RadioButton
                         android:id="@+id/rbCropOwn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TakePhoto自带" />
+                        android:text="TakePhoto自带"/>
                 </RadioGroup>
             </LinearLayout>
 
@@ -102,7 +102,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="尺寸/比例：" />
+                    android:text="尺寸/比例："/>
 
                 <RadioGroup
                     android:id="@+id/rgCropSize"
@@ -116,13 +116,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:checked="true"
-                        android:text="宽x高" />
+                        android:text="宽x高"/>
 
                     <RadioButton
                         android:id="@+id/rbAspect"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="宽/高" />
+                        android:text="宽/高"/>
                 </RadioGroup>
 
                 <EditText
@@ -132,19 +132,19 @@
                     android:layout_marginLeft="10dp"
                     android:inputType="number"
                     android:minWidth="42dp"
-                    android:text="800" />
+                    android:text="800"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="x" />
+                    android:text="x"/>
 
                 <EditText
                     android:id="@+id/etCropHeight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:minWidth="42dp"
-                    android:text="800" />
+                    android:text="800"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -161,12 +161,12 @@
                 android:layout_height="wrap_content"
                 android:text="压缩配置："
                 android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
-                android:background="@android:color/darker_gray" />
+                android:background="@android:color/darker_gray"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -177,7 +177,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="压缩工具：" />
+                    android:text="压缩工具："/>
 
                 <RadioGroup
                     android:id="@+id/rgCompressTool"
@@ -191,13 +191,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:checked="true"
-                        android:text="自带" />
+                        android:text="自带"/>
 
                     <RadioButton
                         android:id="@+id/rbCompressWithLuban"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Luban" />
+                        android:text="Luban"/>
                 </RadioGroup>
             </LinearLayout>
 
@@ -210,7 +210,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="是否压缩：" />
+                    android:text="是否压缩："/>
 
                 <RadioGroup
                     android:id="@+id/rgCompress"
@@ -224,13 +224,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:checked="true"
-                        android:text="是" />
+                        android:text="是"/>
 
                     <RadioButton
                         android:id="@+id/rbCompressNo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="否" />
+                        android:text="否"/>
                 </RadioGroup>
             </LinearLayout>
 
@@ -243,7 +243,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="显示压缩进度条：" />
+                    android:text="显示压缩进度条："/>
 
                 <RadioGroup
                     android:id="@+id/rgShowProgressBar"
@@ -257,13 +257,13 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:checked="true"
-                        android:text="是" />
+                        android:text="是"/>
 
                     <RadioButton
                         android:id="@+id/rbShowNo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="否" />
+                        android:text="否"/>
                 </RadioGroup>
             </LinearLayout>
 
@@ -276,7 +276,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="大小不超过：" />
+                    android:text="大小不超过："/>
 
                 <EditText
                     android:id="@+id/etSize"
@@ -284,18 +284,18 @@
                     android:layout_height="wrap_content"
                     android:inputType="number"
                     android:minWidth="42dp"
-                    android:text="102400" />
+                    android:text="102400"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="B" />
+                    android:text="B"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:text="宽：" />
+                    android:text="宽："/>
 
                 <EditText
                     android:id="@+id/etWidthPx"
@@ -303,13 +303,13 @@
                     android:layout_height="wrap_content"
                     android:inputType="number"
                     android:minWidth="42dp"
-                    android:text="800" />
+                    android:text="800"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:text="高：" />
+                    android:text="高："/>
 
                 <EditText
                     android:id="@+id/etHeightPx"
@@ -317,12 +317,12 @@
                     android:layout_height="wrap_content"
                     android:inputType="number"
                     android:minWidth="42dp"
-                    android:text="800" />
+                    android:text="800"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="px" />
+                    android:text="px"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -338,12 +338,12 @@
                 android:layout_height="wrap_content"
                 android:text="选择图片配置："
                 android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
-                android:background="@android:color/darker_gray" />
+                android:background="@android:color/darker_gray"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -359,7 +359,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="使用TakePhoto自带相册：" />
+                        android:text="使用TakePhoto自带相册："/>
 
                     <RadioGroup
                         android:id="@+id/rgPickTool"
@@ -373,13 +373,13 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:checked="true"
-                            android:text="是" />
+                            android:text="是"/>
 
                         <RadioButton
                             android:id="@+id/rbPickWithOther"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="否" />
+                            android:text="否"/>
                     </RadioGroup>
                 </LinearLayout>
 
@@ -388,7 +388,7 @@
                     android:layout_height="match_parent"
                     android:text="提示：选择多张图片时会自动切换到TakePhoto自带相册"
                     android:textColor="#FF0000"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -404,7 +404,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="最多选择：" />
+                            android:text="最多选择："/>
 
                         <EditText
                             android:id="@+id/etLimit"
@@ -412,12 +412,12 @@
                             android:layout_height="wrap_content"
                             android:inputType="number"
                             android:minWidth="30dp"
-                            android:text="5" />
+                            android:text="5"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="张" />
+                            android:text="张"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -429,7 +429,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="从哪选择：" />
+                            android:text="从哪选择："/>
 
                         <RadioGroup
                             android:id="@+id/rgFrom"
@@ -443,30 +443,29 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:checked="true"
-                                android:text="从相册" />
+                                android:text="从相册"/>
 
                             <RadioButton
                                 android:id="@+id/rbFile"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="从文件" />
+                                android:text="从文件"/>
                         </RadioGroup>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="其他配置："
                 android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
-                android:background="@android:color/darker_gray" />
+                android:background="@android:color/darker_gray"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -482,7 +481,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="纠正拍照的照片旋转角度：" />
+                        android:text="纠正拍照的照片旋转角度："/>
 
                     <RadioGroup
                         android:id="@+id/rgCorrectTool"
@@ -495,14 +494,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="是" />
+                            android:text="是"/>
 
                         <RadioButton
                             android:id="@+id/rbCorrectNo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:checked="true"
-                            android:text="否" />
+                            android:text="否"/>
                     </RadioGroup>
                 </LinearLayout>
 
@@ -515,7 +514,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="拍照压缩后是否保存原图：" />
+                        android:text="拍照压缩后是否保存原图："/>
 
                     <RadioGroup
                         android:id="@+id/rgRawFile"
@@ -529,18 +528,17 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:checked="true"
-                            android:text="是" />
+                            android:text="是"/>
 
                         <RadioButton
                             android:id="@+id/rbRawNo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="否" />
+                            android:text="否"/>
                     </RadioGroup>
                 </LinearLayout>
 
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -554,7 +552,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="onClick"
-                    android:text="拍照" />
+                    android:text="拍照"/>
 
                 <Button
                     android:id="@+id/btnPickBySelect"
@@ -562,7 +560,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="onClick"
-                    android:text="选择照片" />
+                    android:text="选择照片"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
